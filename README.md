@@ -5,17 +5,15 @@ To use the program, simply compile it and run it. The program will prompt you fo
 
 After the program has finished displaying the HTML content, it will prompt you to either exit the program or paste a new URL. You can continue pasting new URLs until you hit "ctrl+s" to exit the program.
 
-##Example
+## Example
 
-To fetch and display the HTML content of the website, you can use cargo.
-Navigate to the folder containing code and type into the terminal:
+To fetch and display the HTML content of the website, you can use cargo. Navigate to the folder containing code and type "cargo run" into the terminal:
 
-cargo run
 Enter the website URL: https://www.google.com/
 
 The program would then display the HTML content of the Google website to the console.
 
-##Requirements
+## Requirements
 
 The program requires the following Rust crates:
 
@@ -27,6 +25,6 @@ To install these crates, you can run the following command:
 cargo install reqwest
 cargo install select
 
-##Contributing
+## Contributing
 
 If you have any suggestions or bug reports, please feel free to open a pull request or issue on GitHub.
